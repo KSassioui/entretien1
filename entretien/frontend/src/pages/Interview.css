@@ -1,0 +1,44 @@
+
+.interview-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #1f2937;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 24px auto;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  padding: 24px;
+}
+
+.uuid { color: #6b7280; font-size: 14px; }
+
+.question-box {
+  margin: 18px 0;
+  padding: 12px 16px;
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 10px;
+}
+
+.status { font-size: 18px; font-weight: 600; margin: 10px 0; }
+.status.prep { color: #d97706; }
+.status.rec  { color: #ef4444; }
+
+.video-frame { margin: 20px 0; }
+video { border-radius: 12px; background: #000; width: 100%; max-width: 640px; }
+
+.final-message {
+  margin-top: 20px;
+  padding: 16px;
+  background: #ecfeff;
+  border: 1px solid #a5f3fc;
+  color: #0e7490;
+  border-radius: 10px;
+}

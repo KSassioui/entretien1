@@ -1,0 +1,32 @@
+.offers-grid {
+    background: #f5f5f5;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.offer-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.offer-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.offer-avatar {
+    width: 30px;
+    height: 30px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.offer-title {
+    font-size: 16px;
+    color: #0056b3;
+}
