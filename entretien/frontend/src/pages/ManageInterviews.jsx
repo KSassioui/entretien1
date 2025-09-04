@@ -2046,7 +2046,7 @@ export default function ManageInterviews() {
             <table style={{ width: "100%", borderCollapse: "collapse" }}>
               <thead>
                 <tr style={{ textAlign: "left", borderBottom: "1px solid #ddd" }}>
-                  <th style={{ padding: "8px" }}>Nom</th>
+                  <th style={{ padding: "8px" }}>Email</th>
                   <th style={{ padding: "8px" }}>Statut Entretien</th>
                   <th style={{ padding: "8px" }}>Statut Demande</th>
                   <th style={{ padding: "8px" }}>Actions</th>
