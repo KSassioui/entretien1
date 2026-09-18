@@ -1,4 +1,4 @@
-
+/* 
 .interview-page {
   min-height: 100vh;
   background: #f9fafb;
@@ -41,4 +41,802 @@ video { border-radius: 12px; background: #000; width: 100%; max-width: 640px; }
   border: 1px solid #a5f3fc;
   color: #0e7490;
   border-radius: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.interview-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1f2937;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 24px auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  border: 1px solid #e5e7eb;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+.uuid {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.question-card {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 24px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.question-number {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.question-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2937;
+}
+
+.status {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1f2937;
+}
+
+.status.prep {
+  color: #d97706;
+}
+
+.status.rec {
+  color: #ef4444;
+}
+
+.rec-dot {
+  width: 10px;
+  height: 10px;
+  background: #ef4444;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.timer-icon {
+  font-size: 18px;
+}
+
+.video-frame {
+  margin: 24px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.video-frame video {
+  width: 100%;
+  height: auto;
+  background: #000;
+  border: none;
+}
+
+.btn-start,
+.btn-skip,
+.btn-stop {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 8px 0;
+}
+
+.btn-start {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-start:hover {
+  background: #2563eb;
+}
+
+.btn-skip {
+  background: #10b981;
+  color: white;
+}
+
+.btn-skip:hover {
+  background: #059669;
+}
+
+.btn-stop {
+  background: #ef4444;
+  color: white;
+}
+
+.btn-stop:hover {
+  background: #dc2626;
+}
+
+.final-message {
+  margin-top: 24px;
+  padding: 24px;
+  background: #ecfeff;
+  border: 1px solid #a5f3fc;
+  color: #0e7490;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.loader {
+  text-align: center;
+  font-size: 16px;
+  color: #6b7280;
+  padding: 40px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+.interview-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1f2937;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 24px auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  border: 1px solid #e5e7eb;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+.uuid {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.question-card {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 24px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.question-number {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.question-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2937;
+}
+
+.status {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1f2937;
+}
+
+.status.prep {
+  color: #d97706;
+}
+
+.status.rec {
+  color: #ef4444;
+}
+
+.rec-dot {
+  width: 10px;
+  height: 10px;
+  background: #ef4444;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.timer-icon {
+  font-size: 18px;
+}
+
+.video-frame {
+  margin: 24px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.video-frame video {
+  width: 100%;
+  height: auto;
+  background: #000;
+  border: none;
+}
+
+.btn-start,
+.btn-skip {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 12px 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+.btn-start {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-start:hover {
+  background: #2563eb;
+}
+
+.btn-skip {
+  background: #10b981;
+  color: white;
+}
+
+.btn-skip:hover {
+  background: #059669;
+}
+
+.info {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.final-message {
+  margin-top: 24px;
+  padding: 24px;
+  background: #ecfeff;
+  border: 1px solid #a5f3fc;
+  color: #0e7490;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.loader {
+  text-align: center;
+  font-size: 16px;
+  color: #6b7280;
+  padding: 40px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.interview-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1f2937;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 24px auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+.uuid {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.question-box {
+  margin: 16px 0;
+  padding: 16px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.question-box h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.question-box p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.status {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1f2937;
+}
+
+.status.prep {
+  color: #d97706;
+}
+
+.status.rec {
+  color: #ef4444;
+}
+
+.video-frame {
+  margin: 24px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  width: 100%;
+  max-width: 640px;
+}
+
+.video-frame video {
+  width: 100%;
+  height: auto;
+  background: #000;
+  border: none;
+}
+
+.btn-start,
+.btn-skip {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 12px 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+.btn-start {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-start:hover {
+  background: #2563eb;
+}
+
+.btn-skip {
+  background: #10b981;
+  color: white;
+}
+
+.btn-skip:hover {
+  background: #059669;
+}
+
+.final-message {
+  margin-top: 24px;
+  padding: 24px;
+  background: #ecfeff;
+  border: 1px solid #a5f3fc;
+  color: #0e7490;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.loader {
+  text-align: center;
+  font-size: 16px;
+  color: #6b7280;
+  padding: 40px;
+} */
+
+
+
+
+
+
+
+.interview-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1f2937;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 24px auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1f2937;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.question-box {
+  margin: 16px 0;
+  padding: 16px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.question-box h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.question-box p {
+  margin: 0;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.status {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1f2937;
+}
+
+.status.prep {
+  color: #d97706;
+}
+
+.status.rec {
+  color: #ef4444;
+}
+
+.video-frame {
+  margin: 24px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  width: 100%;
+  max-width: 640px;
+}
+
+.video-frame video {
+  width: 100%;
+  height: auto;
+  background: #000;
+  border: none;
+}
+
+.btn-start,
+.btn-skip {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 12px 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+.btn-start {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-start:hover {
+  background: #2563eb;
+}
+
+.btn-skip {
+  background: #10b981;
+  color: white;
+}
+
+.btn-skip:hover {
+  background: #059669;
+}
+
+.final-message {
+  margin-top: 24px;
+  padding: 24px;
+  background: #ecfeff;
+  border: 1px solid #a5f3fc;
+  color: #0e7490;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.loader {
+  text-align: center;
+  font-size: 16px;
+  color: #6b7280;
+  padding: 40px;
 }
